@@ -2,15 +2,19 @@
 <html lang="en">
 
 <head>
+    <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Visaco - Immigration and Visa Consulting Template">
 
+    <!-- ========== Page Title ========== -->
     <title>SR Overseas Consultancy</title>
 
+    <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
+    <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/visaco-icons.css" rel="stylesheet">
@@ -22,11 +26,33 @@
     <link href="assets/css/unit-test.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    </head>
+    <!-- ========== End Stylesheet ========== -->
+
+</head>
 
 <body>
 
 
+    <!-- Start Preloader 
+    ============================================= -->
+    <div id="preloader">
+        <div class="visaco-loader-inner">
+            <div class="visaco-loader">
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+                <span class="visaco-loader-item"></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- Start Header Top 
+    ============================================= -->
     <div class="top-bar-area light-bg">
         <div class="container-full">
             <div class="row align-center">
@@ -60,19 +86,25 @@
                                 </a>
                             </li>
                             <li>
-                            <a href="#">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End Header Top -->
+
+    <!-- Header 
+    ============================================= -->
     <header>
+        <!-- Start Navigation -->
         <nav class="navbar mobile-sidenav navbar-default validnavs navbar-sticky">
 
+            <!-- Start Top Search -->
             <div class="top-search">
                 <div class="container-xl">
                     <div class="input-group">
@@ -82,8 +114,12 @@
                     </div>
                 </div>
             </div>
+            <!-- End Top Search -->
+
+
             <div class="container-full d-flex justify-content-between align-items-center">
 
+                <!-- Start Header Navigation -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
@@ -92,6 +128,9 @@
                         <img src="assets/img/logo.png" class="logo" alt="Logo">
                     </a>
                 </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
                     <img src="assets/img/logo.png" alt="Logo">
@@ -123,7 +162,10 @@
 
                         <li><a href="contact-us.html">contact</a></li>
                     </ul>
-                </div><div class="attr-right">
+                </div><!-- /.navbar-collapse -->
+
+                <div class="attr-right">
+                    <!-- Start Atribute Navigation -->
                     <div class="attr-nav">
                         <ul>
                             <li class="contact">
@@ -141,88 +183,106 @@
                             <li><a href="contact-us.html" class="btn-style-one">Appointment <span></span></a></li>
                         </ul>
                     </div>
-                    </div>
+                    <!-- End Atribute Navigation -->
+                </div>
 
             </div>
+            <!-- Overlay screen for menu -->
             <div class="overlay-screen"></div>
-            </nav>
-        </header>
+            <!-- End Overlay screen for menu -->
+
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Start Breadcrumb 
+    ============================================= -->
     <div class="breadcrumb-area with-banner bg-cover text-center bg-dark text-light" style="background-image: url(assets/img/banner/7.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <h1>Contact Us</h1>
+                    <h1>Coaching</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                            <li class="active">Contact</li>
+                            <li class="active">Coaching</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </div>
     </div>
-    <div class="contact-style-one-area default-padding">
+    <!-- End Breadcrumb -->
+
+    <!-- Start Course 
+    ============================================= -->
+    <div class="course-style-two-area default-padding bg-gray bg-cover" style="background-image: url(assets/img/shape/wooden.png);">
         <div class="container">
-            <div class="contact-style-one-items">
-                <div class="row align-center">
-                    <div class="col-lg-8 offset-lg-2">
-                        <div class="contact-form-style-one">
-                            <h2>Have questions? <br> Get in touch!</h2>
-                            <form action="assets/mail/contact.php" method="POST" class="contact-form contact-form">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text">
-                                            <span class="alert-error"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
-                                            <span class="alert-error"></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
-                                            <span class="alert-error"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group comments">
-                                            <textarea class="form-control" id="comments" name="comments" placeholder="Service Details"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-
-                                        <button type="submit" name="submit" id="submit" class="btn-style-one circle">
-                                            Discover More <span></span>
-                                        </button>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 alert-notification">
-                                    <div id="message" class="alert-msg"></div>
-                                </div>
-                            </form>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="course-style-two-items">
+                        <!-- Single Item -->
+                        <div class="course-style-two-item wow fadeInUp">
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/38.png" alt="Image Not Fund">
+                                <h6>TOEFL Coaching</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/39.png" alt="Image Not Fund">
+                                <h6>IELTS Coaching</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/40.png" alt="Image Not Fund">
+                                <h6>Citizenship Test</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/41.png" alt="Image Not Fund">
+                                <h6>PTE Coaching</h6>
+                            </a>
                         </div>
+                        <!-- End Single Item -->
+
+                         <!-- Single Item -->
+                        <div class="course-banner wow fadeInDown bg-theme text-light" style="background-image: url(assets/img/shape/37.png);">
+                            <h2>AVAIL</h2>
+                            <div class="percent">
+                                50%
+                            </div>
+                            <h5>OFF ON ALL COACHING</h5>
+                        </div>
+                        <!-- End Single Item -->
+
+                        <!-- Single Item -->
+                        <div class="course-style-two-item wow fadeInUp">
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/42.png" alt="Image Not Fund">
+                                <h6>GMAT Coaching</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/43.png" alt="Image Not Fund">
+                                <h6>SAT Coaching</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/44.png" alt="Image Not Fund">
+                                <h6>GRE Coaching</h6>
+                            </a>
+                            <a href="coaching-details.html">
+                                <img src="assets/img/icon/45.png" alt="Image Not Fund">
+                                <h6>OET Coaching</h6>
+                            </a>
+                        </div>
+                        <!-- End Single Item -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="maps-area bg-gray overflow-hidden">
-        <div class="google-maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.2954497700257!2d78.4914783!3d17.5411147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb854385b164af%3A0xd705c085cf17c03a!2sSR%20Overseas!5e0!3m2!1sen!2sin!4v1759590430483!5m2!1sen!2sin"></iframe>
-        </div>
-    </div>
+    <!-- End Course -->
+
+    <!-- Start Footer 
+    ============================================= -->
     <div class="footer-top-area bg-dark-secondary text-light" style="background-image: url(assets/img/shape/17.png);">
         <div class="container">
             <div class="row align-items-center">
@@ -250,7 +310,7 @@
                             <div class="info">
                                 <h4>Address:</h4>
                                 <p>
-                                    H.No.4-128, Central prak main road
+                                H.No.4-128, Central prak main road
                                     Sri Ganesh Nagar, Kompally
                                 </p>
                             </div>
@@ -368,6 +428,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Start Footer Bottom -->
             <div class="footer-bottom">
                 <div class="container">
                     <div class="row">
@@ -377,27 +438,32 @@
                     </div>
                 </div>
             </div>
-            </div>
+            <!-- End Footer Bottom -->
+        </div>
     </footer>
-    <script src="assets/js/jquery-3.7.1.min.js" defer></script>
-    <script src="assets/js/bootstrap.bundle.min.js" defer></script>
-    <script src="assets/js/jquery.appear.js" defer></script>
-    <script src="assets/js/jquery.easing.min.js" defer></script>
-    <script src="assets/js/swiper-bundle.min.js" defer></script>
-    <script src="assets/js/progress-bar.min.js" defer></script>
-    <script src="assets/js/circle-progress.js" defer></script>
-    <script src="assets/js/isotope.pkgd.min.js" defer></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js" defer></script>
-    <script src="assets/js/magnific-popup.min.js" defer></script>
-    <script src="assets/js/count-to.js" defer></script>
-    <script src="assets/js/jquery.nice-select.min.js" defer></script>
-    <script src="assets/js/wow.min.js" defer></script>
-    <script src="assets/js/YTPlayer.min.js" defer></script>
-    <script src="assets/js/validnavs.js" defer></script>
-    <script src="assets/js/gsap.js" defer></script>
-    <script src="assets/js/ScrollTrigger.min.js" defer></script>
-    <script src="assets/js/SplitText.min.js" defer></script>
-    <script src="assets/js/main.js" defer></script>
+    <!-- End Footer -->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/circle-progress.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/validnavs.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
